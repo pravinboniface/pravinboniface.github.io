@@ -1,20 +1,56 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<link rel="stylesheet" type="text/css" href="mystyle.css">
-<title>My Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name | Professional Portfolio</title>
+    <style>
+        /* CSS for Professional Styling */
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; line-height: 1.6; color: #333; background-color: #f4f4f9; }
+        header { background: #2c3e50; color: #fff; padding: 1rem 0; text-align: center; }
+        .container { max-width: 900px; margin: 2rem auto; padding: 2rem; background: #fff; box-shadow: 0 4px 15px rgba(0,0,0,0.1); border-radius: 8px; display: flex; align-items: center; gap: 2rem; flex-wrap: wrap; }
+        .profile-img { flex: 1; min-width: 250px; text-align: center; }
+        .profile-img img { width: 100%; max-width: 250px; border-radius: 50%; border: 5px solid #2c3e50; }
+        .content { flex: 2; min-width: 300px; }
+        h1 { color: #2c3e50; margin-top: 0; }
+        .job-title { color: #e67e22; font-weight: bold; font-size: 1.2rem; }
+        .social-links { margin-top: 1.5rem; }
+        .btn { display: inline-block; padding: 0.6rem 1.2rem; background: #2c3e50; color: #fff; text-decoration: none; border-radius: 5px; transition: 0.3s; }
+        .btn:hover { background: #e67e22; }
+        @media (max-width: 768px) { .container { flex-direction: column; text-align: center; } }
+    </style>
 </head>
 <body>
-<h1>Pravin Boniface</h1>
-<p>
-    <img src="pravin_crop.jpg" border="1" />
-  </p>
-<h2>About me</h2>  
-<p>Freelance data visualization developer based in Chicago.  Some of my work is listed below.</p>
-<ul>
-<li><a href="TBD">Qlik Sense Apps</a></li>
-<li><a href="TBD">Qlik Sense Widgets</li>
-<li><a href="TBD">Qlik Sense Extensions</li>
-</ul>
-  </body>
-</html> 
+
+<header>
+    <h1>Welcome to My Professional Profile</h1>
+</header>
+
+<div class="container">
+    <div class="profile-img">
+        <!-- REPLACE THE URL BELOW WITH YOUR PHOTO URL -->
+        <img src="via.placeholder.com" alt="Your Name Profile Photo">
+    </div>
+    
+    <div class="content">
+        <h1>Hi, I'm [Your Name]</h1>
+        <p class="job-title">[Your Profession/Title]</p>
+        <p>
+            I am a dedicated professional with [X] years of experience in [Your Industry]. 
+            I specialize in [Skill 1], [Skill 2], and [Skill 3]. I am passionate about 
+            creating impactful solutions and collaborating on innovative projects.
+        </p>
+        <p>
+            In my free time, I enjoy [Hobbies/Interests], which help me stay creative 
+            and bring a unique perspective to my professional work.
+        </p>
+        
+        <div class="social-links">
+            <a href="linkedin.com" class="btn" target="_blank">LinkedIn</a>
+            <a href="mailto:yourname@email.com" class="btn">Contact Me</a>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
